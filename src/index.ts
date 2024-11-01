@@ -28,6 +28,7 @@ new Elysia()
       return 'Never gonna give you up'
     }
     if (cred.ip != String(ip)) {
+      auth.remove();
       return 'IP mismatch!'
 
     }
